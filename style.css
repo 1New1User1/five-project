@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #f12711, #f5af19);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* .btn-grey:hover,
+  .btn-grey:focus{
+    background-color: rgb(201, 201, 201);
+  }
+  .btn-orange:hover,
+  .btn-orange:focus{
+    background-color: rgb(252, 194, 86);
+  }
+  .default:hover,
+  .default:focus{
+    background-color: rgba(192, 192, 192, 0.372);
+  } */
+  
+  .calculator {
+    width: 470px;
+    height: auto;
+    background-color: black;
+    margin: 150px auto;
+    border-radius: 20px;
+    padding: 10px;
+    background:url(./img/main-background.jpg);
+    background-size: contain ;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+.calculator:hover,
+.calculator:focus{
+    background:url(./20d8acf0-6f9f-47d4-b8b7-395270a688a3.jpg);
+    background-size: cover;
+}
+  .display {
+    color: white;
+    font-size: 70px;
+    text-align: end;
+    padding-top: 20px;
+    word-wrap: break-word;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 28px 30px;
+    width: 22%;
+    margin: 10px 6px;
+    font-size: 30px;
+    
+  }
+  
+  .zero-btn {
+    padding: 30px 190px 26px 20px;
+  }
+  
+  .btn-orange {
+    background-color: orange;
+  }
+  
+  .btn-grey {
+    background-color: transparent;
+  }
+/* 
+  .btn-grey:first-child{
+    background-color: transparent;
+
+  }  */
+
+
+.one{
+    background:url(); 
+}
+.two{
+    background:url(); 
+}
+.three{
+    background:url(); 
+}
+.four{
+    background:url(); 
+}
+.five{
+    background:url(); 
+}
+.seven{
+    background:url(); 
+}
+.eight{
+    background:url(); 
+}
+.nine{
+    background:url(); 
+}
+.zero{
+    background:url(./img/zero.jpg); 
+    background-size: contain ;
+}
+
+.zero:focus,
+.zero:hover{
+    background:url(./img/second-zero.jpg); 
+    background-size: contain ;
+}
+
+.ten{
+    background:url(); 
+    /* background-size:contain ; */
+}
+
+.point{
+    background:url(./img/point.jpg); 
+    background-size:contain ;
+}
+
+.point:hover,
+.point:focus{
+    background:url(./img/second-under-andrey.jpg); 
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+.a{
+    background: url(./img/slesh.jpg);
+    background-size:contain ;
+    
+}
+.b{
+    background: url();
+}
+.c{
+    background: url();
+}
+.d{
+    background: url();
+}
+.e{
+    background: url();
+}
+
+.a:hover,
+.a:focus{
+    background: url(./img/main-a.png);
+    background-size:contain ;
+
+}
